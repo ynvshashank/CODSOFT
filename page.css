@@ -1,0 +1,130 @@
+body{
+    color: black;
+    margin:0px;
+    padding:0px;
+    background:url('nordwood-themes-Z1-yorzKan8-unsplash.jpg');
+    font-family: 'Playpen Sans', cursive;
+}
+
+.left{
+    
+    display:inline-block;
+    top: 20px;
+    position: absolute;
+    left: 20px;
+
+}
+.left img{
+    width:60px;
+}
+.left span{
+    color:orange;
+
+}
+.left div{
+    position: absolute;
+    top:23px;
+    left:65px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.right{
+    display: inline-block;
+    
+    position: absolute;
+    right: 20px;
+    top:20px;
+}
+.mid{
+    display: block;
+    
+    width:50%;
+    margin: 20px auto;
+
+}
+
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    
+}
+.navbar li a{
+    color:rgb(116, 111, 111);
+    text-decoration: none;
+    padding: 34px 25px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.navbar li a:hover{
+    text-decoration: underline;
+    color:rgb(252, 131, 11) !important;
+}
+
+.btn{
+    font-size: 20px;
+    font-weight: 500;
+    margin:0px 15px;
+    color:rgb(116, 111, 111);
+    background-color: rgb(235, 161, 24);
+    border-radius: 10px;
+    padding:15px 15px;
+    
+    cursor: pointer;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.btn:hover{
+    transform: translateY(-10px);
+    background-color: rgb(252, 131, 11) !important;
+}
+
+
+.content{
+    
+    width :40%;
+    display:inline-block;
+    position: absolute;
+    left:20px;
+    margin:15px 12px;
+    height: 752px;
+}
+.content p{
+    font-size: 80px;
+    font-weight: 500;
+    color:rgba(4, 4, 135, 0.818);
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-bottom: 0%;
+}
+.small{
+    font-size: 17px;
+    color:rgb(116, 111, 111);
+
+}
+
+.image{
+    
+    width:40%;
+    position: absolute;
+    right: 10px;
+    display: inline-block;
+    margin: 15px 20px;
+    height:752px;
+    padding:10px 10px;
+}
+.image img{
+    margin-top:10px ;
+    padding: 20px 1px;
+    position: absolute;
+    left:16px;
+    top:50px;
+    height:350px;
+    width:390px;
+}
+
+.content .btn{
+    margin-top: 30px;
+
+}
